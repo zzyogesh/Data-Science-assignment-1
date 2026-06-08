@@ -11,6 +11,26 @@
     * *Example:* `is_passed = True`
 
 ---
+# Q2: Variable Creation and Printing
+# ==========================================
+print("--- Question 2 ---")
+name = "Hemant"
+age = 20
+city = "Jaipur"
+
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"City: {city}")
+print()
+
+# ==========================================
+# Q3: User Input and String Operations
+# ==========================================
+print("--- Question 3 ---")
+user_name = input("Enter your name: ")
+print(f"Uppercase Name: {user_name.upper()}")
+print(f"Total number of characters: {len(user_name)}")
+print()
 
 ### Q4. Explain any five commonly used string methods in Python with examples.
 
@@ -41,6 +61,25 @@
     ```
 
 ---
+# ==========================================
+# Q5: Fruit List Operations
+# ==========================================
+print("--- Question 5 ---")
+fruits = ["Apple", "Banana", "Mango", "Orange", "Cherry"]
+print(f"Complete list: {fruits}")
+print(f"First element: {fruits[0]} | Last element: {fruits[-1]}")
+print(f"Total number of items: {len(fruits)}")
+print()
+
+# ==========================================
+# Q6: Numeric List Manipulations
+# ==========================================
+print("--- Question 6 ---")
+numbers = [10, 20, 30, 40, 50]
+numbers.append(60)  # Add 60
+numbers.remove(20)  # Remove 20
+print(f"Updated list: {numbers}")
+
 
 ### Q7. What is Artificial Intelligence (AI)? Explain its importance and mention any four real-life applications of AI.
 
@@ -67,42 +106,5 @@ AI is critical because it enables automation of repetitive tasks, handles massiv
 
 
 
-# Q2: Variable Creation and Printing
-# ==========================================
-print("--- Question 2 ---")
-name = "Hemant"
-age = 20
-city = "Jaipur"
 
-print(f"Name: {name}")
-print(f"Age: {age}")
-print(f"City: {city}")
-print()
 
-# ==========================================
-# Q3: User Input and String Operations
-# ==========================================
-print("--- Question 3 ---")
-user_name = input("Enter your name: ")
-print(f"Uppercase Name: {user_name.upper()}")
-print(f"Total number of characters: {len(user_name)}")
-print()
-
-# ==========================================
-# Q5: Fruit List Operations
-# ==========================================
-print("--- Question 5 ---")
-fruits = ["Apple", "Banana", "Mango", "Orange", "Cherry"]
-print(f"Complete list: {fruits}")
-print(f"First element: {fruits[0]} | Last element: {fruits[-1]}")
-print(f"Total number of items: {len(fruits)}")
-print()
-
-# ==========================================
-# Q6: Numeric List Manipulations
-# ==========================================
-print("--- Question 6 ---")
-numbers = [10, 20, 30, 40, 50]
-numbers.append(60)  # Add 60
-numbers.remove(20)  # Remove 20
-print(f"Updated list: {numbers}")
